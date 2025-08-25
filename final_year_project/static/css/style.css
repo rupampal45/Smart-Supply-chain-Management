@@ -1,0 +1,38 @@
+.sidebar {
+  min-height: 100vh;
+  /* border-right: 1px solid #ddd; */
+}
+/* .nav-link {
+  color: #333;
+} */
+.nav-link:hover {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+.navbar-brand {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+/* .sidebar {
+  min-height: 100vh;
+  border-right: 1px solid #ddd;
+} */
+
+/* Button Styling for Sidebar */
+.sidebar .btn {
+  text-align: center; /* align text and icons to the left */
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 25px 15px 25px 15px;
+}
+
+.sidebar .btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+.sidebar .btn .icon{
+   font-size: 5rem;   /* icon larger */
+  margin-right: 8px;   /* space between icon and text */
+}
